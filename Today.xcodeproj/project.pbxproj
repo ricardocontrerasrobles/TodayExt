@@ -56,10 +56,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		050CBD961AAE6B010030FBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		050CBD971AAE6B010030FBFD /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
-		050CBD981AAE6B010030FBFD /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
-		050CBD9A1AAE6B010030FBFD /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		050DC5331AAA7D08000F32C0 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		050DC5371AAA7D08000F32C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		050DC5381AAA7D08000F32C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -117,32 +113,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		050CBD941AAE6B010030FBFD /* TodayExt1 */ = {
-			isa = PBXGroup;
-			children = (
-				050CBD971AAE6B010030FBFD /* TodayViewController.h */,
-				050CBD981AAE6B010030FBFD /* TodayViewController.m */,
-				050CBD9A1AAE6B010030FBFD /* MainInterface.storyboard */,
-				050CBD951AAE6B010030FBFD /* Supporting Files */,
-			);
-			path = TodayExt1;
-			sourceTree = "<group>";
-		};
-		050CBD951AAE6B010030FBFD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				050CBD961AAE6B010030FBFD /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		050DC52A1AAA7D08000F32C0 = {
 			isa = PBXGroup;
 			children = (
 				050DC5351AAA7D08000F32C0 /* Today */,
 				050DC54F1AAA7D08000F32C0 /* TodayTests */,
 				050DC5701AAA88E0000F32C0 /* TodayExt */,
-				050CBD941AAE6B010030FBFD /* TodayExt1 */,
 				050DC56D1AAA88E0000F32C0 /* Frameworks */,
 				050DC5341AAA7D08000F32C0 /* Products */,
 			);
